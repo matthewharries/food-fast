@@ -19,7 +19,7 @@ $(document).ready(function() {
             responseType: 'json',
             success: loadRecipes
         });
-    })
+    });
 	
 		var loadRecipes = function(json){
 			if(json.meals != undefined){
