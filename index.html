@@ -9,98 +9,72 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
   </head>
   <body>
-		<section class="hero is-primary">
-			<div class="hero-body">
-				<div class="container">
-					<h1 id="site-title" class="title">
-						Food Fast
-					</h1>
-					<h2 class="subtitle">
-						Connecting your stomach to your heart
-					</h2>
-				</div>
-			</div>
-		</section>
-		
-		<!--	Search Bar	-->
-		<div id="search-bar">
-			<nav class="level">
-				<!-- Left side -->
-				<div class="level-left">
-					<div class="level-item">
-						<p class="subtitle is-5">
-							<strong><span id="number-results">0</span></strong> results
-						</p>
+		<div id="wrapper">	
+			<section class="hero is-link">
+				<div class="hero-body">
+					<div class="container">
+						<h1 id="site-title" class="title">
+							Food Fast
+						</h1>
+						<h2 class="subtitle">
+							Connecting your stomach to your heart
+						</h2>
 					</div>
-					<div class="level-item">
-						<div class="field has-addons">
-							<p class="control">
-								<input id="search-value" class="input" type="text" placeholder="Find a recipe">
-							</p>
-							<p class="control">
-								<button id="search-button" class="button">
-									Search
-								</button>
+				</div>
+			</section>
+
+			<!--	Search Bar	-->
+			<div id="search-bar">
+				<nav class="level">
+					<!-- Left side -->
+					<div class="level-left">
+						<div class="level-item">
+							<p class="subtitle is-5">
+								<strong><span id="number-results">0</span></strong> results
 							</p>
 						</div>
-					</div>
-				</div>
-
-				<div class="level-right">
-					<p class="level-item"><strong>By Name</strong></p>
-					<p class="level-item"><a>Main Ingredient</a></p>
-					<p class="level-item"><a>Category</a></p>
-				</div>
-			</nav>
-		</div>
-		
-		<!-- Initial Message for Login -->
-		<section class="section">
-			<div id="main-content"class="container">
-				<h1 id="sub-title" class="title">Hungry?</h1>
-				<h2 class="subtitle">
-					Look no further! With <strong>Food Fast</strong> you'll be on your way to a quick and easy meal in no time. Simply search for an ingredient that you have in your kitchen and see the results!
-				</h2>
-				<div class="box">
-					<article class="media">
-						<div class="media-content">
-							<div class="content">
-								<p>
-									<strong>John Smith</strong>
-									<br>
-									Description of the food
+						<div class="level-item">
+							<div class="field has-addons">
+								<p class="control">
+									<input id="search-value" class="input" type="text" placeholder="Find a recipe">
 								</p>
-								<label><em>Ingredients</em></label>
-								<ul>
-									<li>Ingredient 1</li>
-									<li>Ingredient 1</li>
-									<li>Ingredient 1</li>
-									<li>Ingredient 1</li>
-								</ul>
-
+								<p class="control">
+									<button id="search-button" class="button">
+										Search
+									</button>
+								</p>
 							</div>
 						</div>
-					</article>
-				</div>
-			</div>
-			
-		</section>
-		
-		
+					</div>
 
-		
-		
-		<!-- Footer -->
-  	<footer class="footer">
-			<div class="container">
-				<div class="content has-text-centered">
-					<p>
-						<strong>Food Fast</strong> by Matthew Harries. The source code is located on <a target="_blank" href="https://github.com">Github</a>.
-					</p>
-				</div>
+					<div class="level-right">
+						 <p class="level-item"><a class="button is-info">Surprise Me!</a></p>
+					</div>
+				</nav>
 			</div>
-		</footer>
+
+			<!-- Initial Message for Login -->
+			<section class="section">
+				<div id="main-content"class="container">
+					<h1 id="sub-title" class="title">Hungry?</h1>
+					<h2 class="subtitle">
+						Look no further! With <strong>Food Fast</strong> you'll be on your way to a quick and easy meal in no time. Simply search for an ingredient that you have in your kitchen and see the results!
+					</h2>
+				</div>
+
+			</section>
+		</div>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script text="type/javascript" src="/script.js"></script>
   </body>
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="container">
+			<div class="content has-text-centered">
+				<p>
+					<strong>Food Fast</strong> by Matthew Harries. The source code is located on <a target="_blank" href="https://github.com/matthewharries/food-fast">Github</a>.
+				</p>
+			</div>
+		</div>
+	</footer>
 </html>
