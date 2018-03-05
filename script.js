@@ -2,7 +2,7 @@ $(document).ready(function() {
 			$("#search-button").click((e) =>{
         e.preventDefault();
         var inputValue = $("#search-value").val();
-        var currentURL = "http://www.themealdb.com/api/json/v1/1/search.php?s=" + inputValue;
+        var currentURL = "https://www.themealdb.com/api/json/v1/1/search.php?s=" + inputValue;
         $.ajax({
             url: currentURL,
             responseType: 'json',
@@ -39,7 +39,7 @@ $(document).ready(function() {
 		$(".is-info").click((e) =>{
         e.preventDefault();
         var inputValue = $("#search-value").val();
-				var randomURL = 'http://www.themealdb.com/api/json/v1/1/random.php'
+				var randomURL = 'https://www.themealdb.com/api/json/v1/1/random.php'
         $.ajax({
             url: randomURL,
             responseType: 'json',
